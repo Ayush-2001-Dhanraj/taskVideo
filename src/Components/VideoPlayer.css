@@ -1,0 +1,23 @@
+.playerContainer:hover + div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  position: relative;
+}
+
+.circle {
+  background-color: #1f2158;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2%;
+  box-shadow: 0 0 50px #fff;
+  color: #fff;
+}
