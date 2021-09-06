@@ -1,4 +1,5 @@
-.playerContainer:hover + div {
+.playerContainer:hover + div,
+.circle:hover {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,10 +10,8 @@
 }
 
 .circle {
-  background-color: #1f2158;
-  height: 56px;
-  width: 56px;
-  border-radius: 50%;
+  height: 100px;
+  width: 100px;
   display: none;
   position: absolute;
   bottom: 0;
@@ -20,4 +19,9 @@
   margin: 2%;
   box-shadow: 0 0 50px #fff;
   color: #fff;
+  border-radius: 50%;
+}
+
+.circle div iframe {
+  border-radius: 50%;
 }

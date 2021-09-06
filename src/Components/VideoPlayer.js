@@ -11,7 +11,14 @@ const VideoPlayer = () => {
           controls='true'
         />
       </div>
-      <div className="circle">Hi</div>
+      <div className='circle'>
+        <ReactPlayer
+          url='https://www.youtube.com/watch?v=zln8SZO6yYY'
+          controls='true'
+          height='100%'
+          width='100%'
+        />
+      </div>
     </div>
   )
 }
